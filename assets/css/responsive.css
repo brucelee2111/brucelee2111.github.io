@@ -1,0 +1,261 @@
+@media (min-width: 1120px) and (max-width: 1346px) {
+  .hidden1 {
+    display: none;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 1120px) {
+  .hidden2 {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .hidden3 {
+    display: none !important;
+  }
+
+  .menu-bar {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .metanav-icon {
+    font-size: 26px;
+  }
+
+  .header__section {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 380px) {
+  .feedback-give a {
+    font-size: 12px;
+  }
+  .feedback-product {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hidden576 {
+    display: none;
+  }
+  .title {
+    font-size: 26px;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: 6px;
+  }
+
+  .hero-img {
+    height: 300px;
+  }
+
+  .video-wrapper {
+    width: 360px;
+  }
+
+  .product {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .block_banner {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .video-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .list-title {
+    font-size: 14px;
+  }
+
+  .instagram-info {
+  }
+
+  .instagram-info span {
+    font-size: 20px;
+  }
+
+  .instagram-info a i {
+    font-size: 30px;
+  }
+
+  .instagram-imgs ul {
+    flex-wrap: wrap;
+  }
+
+  .instagram-imgs ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 200px;
+  }
+
+  .section-contact-socials {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+  }
+
+  .section-contact-socials p {
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .section-contact-socials-icon {
+    padding: 14px 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .block576 {
+    display: block;
+  }
+
+  .hidden768 {
+    display: none;
+  }
+  .video-wrapper {
+    width: 560px;
+  }
+  .product {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .video-title {
+    font-size: 30px;
+    letter-spacing: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .list-title {
+    font-size: 18px;
+  }
+
+  .instagram-imgs ul {
+    flex-wrap: wrap;
+  }
+
+  .instagram-imgs ul li {
+    max-width: 33.333%;
+    max-height: 256px;
+  }
+
+  .section-contact-socials {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+  }
+
+  .section-contact-socials p {
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .section-contact-socials-icon {
+    padding: 14px 0;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .block768 {
+    display: block;
+  }
+
+  .hidden768 {
+    display: none;
+  }
+
+  .video-wrapper {
+    width: 700px;
+  }
+  .product {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .video-title {
+    font-size: 30px;
+    letter-spacing: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .video-title a {
+  }
+
+  .list-title {
+    font-size: 18px;
+  }
+
+  .instagram-imgs ul {
+    flex-wrap: wrap;
+  }
+
+  .instagram-imgs ul li {
+    max-width: 33.333%;
+    max-height: 256px;
+  }
+
+  .section-contact-socials {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+  }
+
+  .section-contact-socials p {
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .section-contact-socials-icon {
+    padding: 14px 0;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .video-wrapper {
+    width: 800px;
+  }
+  .footer-container {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden {
+    display: none;
+  }
+}
+/* 
+// Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .video-wrapper {
+    width: 935px;
+  }
+  .hidden {
+    display: none;
+  }
+}
